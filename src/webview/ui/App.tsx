@@ -46,7 +46,7 @@ export const App: React.FC = () => {
 
   return (
     <div className="chat-container">
-      <div className="chat-header">Deep VS Code Extension</div>
+      {/* <div className="chat-header">Deep VS Code Extension</div> */}
       <ChatHistory messages={messages} thinking={thinking} />
       <ChatInput onSend={handleSend} />
     </div>
